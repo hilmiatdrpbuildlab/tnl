@@ -1,0 +1,666 @@
+{
+	"rows": {
+		"pages": [
+			{
+				"id": "5a9e0000-0000-4000-8000-000000000001",
+				"slug": "home",
+				"title": "Home",
+				"intro": "TNL Group is een bedrijf waar kwaliteit en service hand in hand gaan. We zoeken samen met u de beste oplossing om uw project tot een mooi einde te brengen.",
+				"body": "",
+				"heroMediaId": "0e5a4c0e-0000-4000-8000-000000000001",
+				"blocks": {
+					"eyebrow": "Aanleg · Onderhoud · Klusjesdienst",
+					"statement": "Van A tot Z.",
+					"panelText": "TNL Group is een bedrijf waar kwaliteit en service hand in hand gaan. We zoeken samen met u de beste oplossing om uw project tot een mooi einde te brengen.",
+					"primaryLabel": "Contacteer ons",
+					"secondaryLabel": "Onze diensten",
+					"servicesTitle": "Onze diensten",
+					"servicesLead": "Tuinaanleg, onderhoud en een uitgebreide klusjesdienst, voor particuliere tuinen, bedrijfsterreinen, parkings en openbaar groen.",
+					"projectsTitle": "Ons werk",
+					"projectsLead": "Een greep uit de tuinen en terreinen die wij aanlegden en onderhouden.",
+					"faqTitle": "Vragen?",
+					"faqLead": "Staat uw vraag er niet tussen? Neem zeker vrijblijvend contact op."
+				},
+				"seoTitle": "TNL Group | Tuinaanleg, onderhoud en klusjesdienst",
+				"metaDescription": "TNL Group uit Berendrecht: tuinaanleg, tuinonderhoud en klusjesdienst voor particulieren, bedrijven, parkings en openbaar groen. Van A tot Z.",
+				"noindex": false,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "5a9e0000-0000-4000-8000-000000000002",
+				"slug": "diensten",
+				"title": "Onze diensten",
+				"intro": "Tuinaanleg, onderhoud en een uitgebreide klusjesdienst, voor particuliere tuinen, bedrijfsterreinen, parkings en openbaar groen.",
+				"body": "",
+				"heroMediaId": null,
+				"blocks": {},
+				"seoTitle": "Diensten | TNL Group",
+				"metaDescription": "Aanleg, onderhoud en klusjesdienst: van gazon en verharding tot snoeien, maaien, bomen vellen en puin afvoeren. Bekijk wat TNL Group voor u doet.",
+				"noindex": false,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "5a9e0000-0000-4000-8000-000000000003",
+				"slug": "projecten",
+				"title": "Projecten",
+				"intro": "Tuinen en terreinen die wij aanlegden en onderhouden, van oprit tot volledige tuinrenovatie.",
+				"body": "",
+				"heroMediaId": null,
+				"blocks": {},
+				"seoTitle": "Projecten | TNL Group",
+				"metaDescription": "Bekijk projecten van TNL Group: opritten, tuinpaden, tuinrenovaties en onderhoud in en rond Berendrecht.",
+				"noindex": false,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "5a9e0000-0000-4000-8000-000000000004",
+				"slug": "over-ons",
+				"title": "Over ons",
+				"intro": "Wat begon als een bedrijf gericht op particuliere tuinen, is uitgegroeid tot een betrouwbare partner voor het onderhoud van bedrijfsterreinen, parkings en openbaar groen.",
+				"body": "",
+				"heroMediaId": "0e5a4c0e-0000-4000-8000-000000000004",
+				"blocks": {
+					"statement": "Kwaliteit en service gaan hand in hand.",
+					"pillars": [
+						{
+							"title": "Samen de beste oplossing",
+							"text": "We zoeken samen met u de beste oplossing om uw project tot een mooi einde te brengen."
+						},
+						{
+							"title": "Goede voorbereiding",
+							"text": "Door onze focus op goeie voorbereiding en duidelijke communicatie staan wij garant voor 100% klanttevredenheid."
+						},
+						{
+							"title": "Kwaliteit en innovatie",
+							"text": "Elke dag streven wij naar kwaliteit en innovatie, zodat wij u met de beste en efficiëntste methodes kunnen helpen."
+						}
+					]
+				},
+				"seoTitle": "Over ons | TNL Group",
+				"metaDescription": "TNL Group: kwaliteit en service gaan hand in hand. Tuinaanleg en onderhoud voor particulieren, bedrijfsterreinen, parkings en openbaar groen.",
+				"noindex": false,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "5a9e0000-0000-4000-8000-000000000005",
+				"slug": "contact",
+				"title": "Contacteer ons",
+				"intro": "Vul uw gegevens in en wij nemen zo snel mogelijk contact met u op.",
+				"body": "",
+				"heroMediaId": "0e5a4c0e-0000-4000-8000-000000000003",
+				"blocks": {
+					"privacyNotice": "Wij gebruiken uw gegevens alleen om uw vraag te beantwoorden. Berichten bewaren wij maximaal 12 maanden. Vragen over uw gegevens? Mail naar grouptnl@outlook.com."
+				},
+				"seoTitle": "Contact | TNL Group",
+				"metaDescription": "Contacteer TNL Group, Dorpstraat 64, 2040 Berendrecht. Mail grouptnl@outlook.com of bel +32 (0) 495 75 54 37. Wij nemen zo snel mogelijk contact op.",
+				"noindex": false,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "5a9e0000-0000-4000-8000-000000000006",
+				"slug": "blog",
+				"title": "Blog",
+				"intro": "Advies en nieuws over tuinaanleg en tuinonderhoud.",
+				"body": "",
+				"heroMediaId": null,
+				"blocks": {},
+				"seoTitle": "Blog | TNL Group",
+				"metaDescription": "Advies en nieuws van TNL Group over tuinaanleg, tuinonderhoud en klusjes rond het huis.",
+				"noindex": false,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"services": [
+			{
+				"id": "5e7c0000-0000-4000-8000-000000000001",
+				"slug": "aanleg",
+				"title": "Aanleg",
+				"summary": "Van gazon tot volledige tuinprojecten.",
+				"body": "Wij leggen uw tuin aan van A tot Z: van een nieuw gazon tot een volledig tuinproject.\n\nVerharding hoort bij onze tuinaanleg: terrassen, opritten en tuinpaden. Daarnaast plaatsen wij schuttingen en omheiningen, en voeren wij grond- en afbraakwerken uit.",
+				"items": [
+					{
+						"name": "Tuinaanleg",
+						"detail": "gazon en volledige tuinprojecten"
+					},
+					{
+						"name": "Verharding",
+						"detail": "terrassen, opritten en tuinpaden"
+					},
+					{
+						"name": "Schuttingen & omheiningen",
+						"detail": ""
+					},
+					{
+						"name": "Grond- en afbraakwerken",
+						"detail": ""
+					}
+				],
+				"tileTheme": "forest",
+				"heroMediaId": "0e5a4c0e-0000-4000-8000-000000000002",
+				"sortOrder": 1,
+				"seoTitle": "Tuinaanleg en verharding | TNL Group",
+				"metaDescription": "Tuinaanleg van A tot Z: gazon, volledige tuinprojecten, terrassen, opritten, tuinpaden, schuttingen en grondwerken door TNL Group.",
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "5e7c0000-0000-4000-8000-000000000002",
+				"slug": "onderhoud",
+				"title": "Onderhoud",
+				"summary": "Voor particuliere tuinen, bedrijfsterreinen, parkings en openbaar groen.",
+				"body": "Snoeien, maaien en verticuteren, voor tuinen van particulieren en voor bedrijfsterreinen en openbare ruimtes.\n\nWat begon als een bedrijf gericht op particuliere tuinen, is uitgegroeid tot een betrouwbare partner voor het onderhoud van bedrijfsterreinen, parkings en openbaar groen.",
+				"items": [
+					{
+						"name": "Tuinen",
+						"detail": "snoeien, maaien en verticuteren"
+					},
+					{
+						"name": "Industrie, parkings & openbaar groen",
+						"detail": "onderhoud van bedrijfsterreinen en openbare ruimtes"
+					}
+				],
+				"tileTheme": "olive",
+				"heroMediaId": "0e5a4c0e-0000-4000-8000-000000000003",
+				"sortOrder": 2,
+				"seoTitle": "Tuinonderhoud | TNL Group",
+				"metaDescription": "Snoeien, maaien en verticuteren voor particuliere tuinen, bedrijfsterreinen, parkings en openbaar groen. Tuinonderhoud door TNL Group.",
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "5e7c0000-0000-4000-8000-000000000003",
+				"slug": "klusjesdienst",
+				"title": "Klusjesdienst",
+				"summary": "Zwaar werk? Daar hoeft u zich geen zorgen over te maken.",
+				"body": "Kleine karweien en zwaar werk, zodat u zich nergens zorgen over hoeft te maken.\n\nWij voeren stort en puin af, vellen bomen en verwijderen stronken, en reinigen verharding en dakgoten.",
+				"items": [
+					{
+						"name": "Kleine karweien",
+						"detail": ""
+					},
+					{
+						"name": "Stort en puin afvoeren",
+						"detail": ""
+					},
+					{
+						"name": "Bomen vellen & stronken verwijderen",
+						"detail": ""
+					},
+					{
+						"name": "Reinigen",
+						"detail": "verharding en dakgoten"
+					}
+				],
+				"tileTheme": "light",
+				"heroMediaId": "0e5a4c0e-0000-4000-8000-000000000007",
+				"sortOrder": 3,
+				"seoTitle": "Klusjesdienst | TNL Group",
+				"metaDescription": "Kleine karweien, stort en puin afvoeren, bomen vellen, stronken verwijderen en verharding en dakgoten reinigen: de klusjesdienst van TNL Group.",
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"projects": [
+			{
+				"id": "9a0f0000-0000-4000-8000-000000000001",
+				"slug": "tuinrenovatie-grind-en-gazon",
+				"title": "Tuinrenovatie met grind en gazon",
+				"serviceId": "5e7c0000-0000-4000-8000-000000000001",
+				"subService": "Grondwerken",
+				"summary": "Van kale grond naar een grindpad, nieuw gazon en hagen.",
+				"body": "Van omgewoelde grond naar een afgewerkte tuin met een grindpad, een nieuw gazon en hagen.",
+				"coverMediaId": "0e5a4c0e-0000-4000-8000-000000000006",
+				"beforeMediaId": "0e5a4c0e-0000-4000-8000-000000000005",
+				"afterMediaId": "0e5a4c0e-0000-4000-8000-000000000006",
+				"isFeatured": true,
+				"sortOrder": 1,
+				"location": null,
+				"completedOn": null,
+				"isPublished": true,
+				"seoTitle": null,
+				"metaDescription": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "9a0f0000-0000-4000-8000-000000000002",
+				"slug": "oprit-in-kasseien",
+				"title": "Oprit in kasseien",
+				"serviceId": "5e7c0000-0000-4000-8000-000000000001",
+				"subService": "Verharding",
+				"summary": "Nieuwe oprit in kasseien, geflankeerd door strak gesnoeide hagen en bolvormige buxus.",
+				"body": "Een nieuwe oprit in kasseien, geflankeerd door strak gesnoeide hagen en bolvormige buxus.",
+				"coverMediaId": "0e5a4c0e-0000-4000-8000-000000000001",
+				"beforeMediaId": null,
+				"afterMediaId": null,
+				"isFeatured": true,
+				"sortOrder": 2,
+				"location": null,
+				"completedOn": null,
+				"isPublished": true,
+				"seoTitle": null,
+				"metaDescription": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "9a0f0000-0000-4000-8000-000000000003",
+				"slug": "tuinpad-tussen-beukenhagen",
+				"title": "Tuinpad tussen beukenhagen",
+				"serviceId": "5e7c0000-0000-4000-8000-000000000001",
+				"subService": "Verharding",
+				"summary": "Betonpad langs de gevel, tussen twee hoge beukenhagen.",
+				"body": "Een betonpad langs de gevel, tussen twee hoge beukenhagen.",
+				"coverMediaId": "0e5a4c0e-0000-4000-8000-000000000002",
+				"beforeMediaId": null,
+				"afterMediaId": null,
+				"isFeatured": true,
+				"sortOrder": 3,
+				"location": null,
+				"completedOn": null,
+				"isPublished": true,
+				"seoTitle": null,
+				"metaDescription": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "9a0f0000-0000-4000-8000-000000000004",
+				"slug": "gazon-en-hagen-onderhoud",
+				"title": "Gazon en hagen in onderhoud",
+				"serviceId": "5e7c0000-0000-4000-8000-000000000002",
+				"subService": "Tuinen",
+				"summary": "Een gazon in streepjes gemaaid en hagen strak gesnoeid.",
+				"body": "Een gazon in streepjes gemaaid en hoge hagen strak gesnoeid, vanaf de ladder.",
+				"coverMediaId": "0e5a4c0e-0000-4000-8000-000000000004",
+				"beforeMediaId": null,
+				"afterMediaId": null,
+				"isFeatured": false,
+				"sortOrder": 4,
+				"location": null,
+				"completedOn": null,
+				"isPublished": true,
+				"seoTitle": null,
+				"metaDescription": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"projectMedia": [
+			{
+				"id": "a11e0000-0000-4000-8000-000000000001",
+				"projectId": "9a0f0000-0000-4000-8000-000000000004",
+				"mediaId": "0e5a4c0e-0000-4000-8000-000000000003",
+				"sortOrder": 1,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"reviews": [],
+		"faqs": [
+			{
+				"id": "fa900000-0000-4000-8000-000000000001",
+				"question": "Werken jullie ook voor bedrijven?",
+				"answer": "Ja. Wat begon als een bedrijf gericht op particuliere tuinen, is uitgegroeid tot een betrouwbare partner voor het onderhoud van bedrijfsterreinen, parkings en openbaar groen.",
+				"serviceId": null,
+				"sortOrder": 1,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "fa900000-0000-4000-8000-000000000002",
+				"question": "Wat valt onder de klusjesdienst?",
+				"answer": "Kleine karweien, stort en puin afvoeren, bomen vellen en stronken verwijderen, en het reinigen van verharding en dakgoten.",
+				"serviceId": null,
+				"sortOrder": 2,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "fa900000-0000-4000-8000-000000000003",
+				"question": "Welk tuinonderhoud doen jullie?",
+				"answer": "Snoeien, maaien en verticuteren, voor tuinen van particulieren en voor bedrijfsterreinen en openbare ruimtes.",
+				"serviceId": null,
+				"sortOrder": 3,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "fa900000-0000-4000-8000-000000000004",
+				"question": "Leggen jullie ook terrassen en opritten aan?",
+				"answer": "Ja. Verharding hoort bij onze tuinaanleg: terrassen, opritten en tuinpaden.",
+				"serviceId": null,
+				"sortOrder": 4,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "fa900000-0000-4000-8000-000000000005",
+				"question": "Hoe vraag ik een prijs aan?",
+				"answer": "Vul het contactformulier in, mail naar grouptnl@outlook.com of bel +32 (0) 495 75 54 37. Wij nemen zo snel mogelijk contact met u op.",
+				"serviceId": null,
+				"sortOrder": 5,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"stats": [
+			{
+				"id": "57a70000-0000-4000-8000-000000000001",
+				"value": "100%",
+				"label": "klanttevredenheid, dankzij goede voorbereiding en duidelijke communicatie.",
+				"sortOrder": 1,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "57a70000-0000-4000-8000-000000000002",
+				"value": "3",
+				"label": "diensten onder één dak: aanleg, onderhoud en klusjesdienst.",
+				"sortOrder": 2,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "57a70000-0000-4000-8000-000000000003",
+				"value": "A–Z",
+				"label": "Wij voorzien alles voor uw projecten van A tot Z.",
+				"sortOrder": 3,
+				"isPublished": true,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"posts": [],
+		"media": [
+			{
+				"id": "0e5a4c0e-0000-4000-8000-000000000001",
+				"objectKey": "originals/0e5a4c0e-0000-4000-8000-000000000001.jpg",
+				"fileName": "aanleg-kasseien-oprit.jpg",
+				"mime": "image/jpeg",
+				"bytes": 749146,
+				"width": 1500,
+				"height": 2000,
+				"alt": "Oprit in kasseien tussen strak gesnoeide hagen en buxusbollen",
+				"variants": [
+					{
+						"w": 480,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000001-480.webp"
+					},
+					{
+						"w": 720,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000001-720.webp"
+					},
+					{
+						"w": 960,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000001-960.webp"
+					},
+					{
+						"w": 1500,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000001-1500.webp"
+					}
+				],
+				"unusedSince": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "0e5a4c0e-0000-4000-8000-000000000002",
+				"objectKey": "originals/0e5a4c0e-0000-4000-8000-000000000002.jpg",
+				"fileName": "aanleg-pad-haag.jpg",
+				"mime": "image/jpeg",
+				"bytes": 683170,
+				"width": 1500,
+				"height": 2000,
+				"alt": "Betonpad langs een gevel tussen twee hoge beukenhagen",
+				"variants": [
+					{
+						"w": 480,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000002-480.webp"
+					},
+					{
+						"w": 720,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000002-720.webp"
+					},
+					{
+						"w": 960,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000002-960.webp"
+					},
+					{
+						"w": 1500,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000002-1500.webp"
+					}
+				],
+				"unusedSince": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "0e5a4c0e-0000-4000-8000-000000000003",
+				"objectKey": "originals/0e5a4c0e-0000-4000-8000-000000000003.jpg",
+				"fileName": "onderhoud-snoeien.jpg",
+				"mime": "image/jpeg",
+				"bytes": 797558,
+				"width": 1500,
+				"height": 2000,
+				"alt": "Medewerker van TNL snoeit een hoge haag vanaf een ladder",
+				"variants": [
+					{
+						"w": 480,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000003-480.webp"
+					},
+					{
+						"w": 720,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000003-720.webp"
+					},
+					{
+						"w": 960,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000003-960.webp"
+					},
+					{
+						"w": 1500,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000003-1500.webp"
+					}
+				],
+				"unusedSince": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "0e5a4c0e-0000-4000-8000-000000000004",
+				"objectKey": "originals/0e5a4c0e-0000-4000-8000-000000000004.jpg",
+				"fileName": "onderhoud-gazon.jpg",
+				"mime": "image/jpeg",
+				"bytes": 661696,
+				"width": 1536,
+				"height": 1817,
+				"alt": "Pas gemaaid gazon met strepen voor een villa",
+				"variants": [
+					{
+						"w": 480,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000004-480.webp"
+					},
+					{
+						"w": 720,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000004-720.webp"
+					},
+					{
+						"w": 960,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000004-960.webp"
+					},
+					{
+						"w": 1536,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000004-1536.webp"
+					}
+				],
+				"unusedSince": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "0e5a4c0e-0000-4000-8000-000000000005",
+				"objectKey": "originals/0e5a4c0e-0000-4000-8000-000000000005.jpg",
+				"fileName": "project-voor.jpg",
+				"mime": "image/jpeg",
+				"bytes": 497814,
+				"width": 1386,
+				"height": 1187,
+				"alt": "Voor: omgewoelde grond met een minigraver",
+				"variants": [
+					{
+						"w": 480,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000005-480.webp"
+					},
+					{
+						"w": 720,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000005-720.webp"
+					},
+					{
+						"w": 960,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000005-960.webp"
+					},
+					{
+						"w": 1386,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000005-1386.webp"
+					}
+				],
+				"unusedSince": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "0e5a4c0e-0000-4000-8000-000000000006",
+				"objectKey": "originals/0e5a4c0e-0000-4000-8000-000000000006.jpg",
+				"fileName": "project-na.jpg",
+				"mime": "image/jpeg",
+				"bytes": 526510,
+				"width": 1386,
+				"height": 1187,
+				"alt": "Na: grindpad, nieuw gazon en hagen",
+				"variants": [
+					{
+						"w": 480,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000006-480.webp"
+					},
+					{
+						"w": 720,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000006-720.webp"
+					},
+					{
+						"w": 960,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000006-960.webp"
+					},
+					{
+						"w": 1386,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000006-1386.webp"
+					}
+				],
+				"unusedSince": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "0e5a4c0e-0000-4000-8000-000000000007",
+				"objectKey": "originals/0e5a4c0e-0000-4000-8000-000000000007.jpg",
+				"fileName": "klus-bomen-vellen.jpg",
+				"mime": "image/jpeg",
+				"bytes": 553144,
+				"width": 2000,
+				"height": 1333,
+				"alt": "Kettingzaag naast een gevelde boomstam",
+				"variants": [
+					{
+						"w": 480,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000007-480.webp"
+					},
+					{
+						"w": 720,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000007-720.webp"
+					},
+					{
+						"w": 960,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000007-960.webp"
+					},
+					{
+						"w": 1600,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000007-1600.webp"
+					},
+					{
+						"w": 2000,
+						"src": "/media/0e5a4c0e-0000-4000-8000-000000000007-2000.webp"
+					}
+				],
+				"unusedSince": null,
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"settings": [
+			{
+				"id": true,
+				"company": {
+					"name": "TNL Group",
+					"street": "Dorpstraat 64",
+					"postcode": "2040",
+					"city": "Berendrecht",
+					"companyNumber": "",
+					"email": "grouptnl@outlook.com",
+					"phone": "+32 (0) 495 75 54 37"
+				},
+				"socials": {
+					"facebook": "https://www.facebook.com/share/19JzXtyX3a/",
+					"instagram": "https://www.instagram.com/grouptnl"
+				},
+				"notifyEmail": "grouptnl@outlook.com",
+				"pendingDeletions": [],
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		],
+		"redirects": [
+			{
+				"id": "4ed10000-0000-4000-8000-000000000001",
+				"fromPath": "/services-4",
+				"toPath": "/diensten",
+				"status": 301,
+				"note": "Oude Wix-pagina",
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			},
+			{
+				"id": "4ed10000-0000-4000-8000-000000000002",
+				"fromPath": "/projects-8",
+				"toPath": "/projecten",
+				"status": 301,
+				"note": "Oude Wix-pagina",
+				"createdAt": "2026-09-30T00:00:00.000Z",
+				"updatedAt": "2026-09-30T00:00:00.000Z"
+			}
+		]
+	},
+	"files": {
+		"0e5a4c0e-0000-4000-8000-000000000001": "aanleg-kasseien-oprit.jpg",
+		"0e5a4c0e-0000-4000-8000-000000000002": "aanleg-pad-haag.jpg",
+		"0e5a4c0e-0000-4000-8000-000000000003": "onderhoud-snoeien.jpg",
+		"0e5a4c0e-0000-4000-8000-000000000004": "onderhoud-gazon.jpg",
+		"0e5a4c0e-0000-4000-8000-000000000005": "project-voor.jpg",
+		"0e5a4c0e-0000-4000-8000-000000000006": "project-na.jpg",
+		"0e5a4c0e-0000-4000-8000-000000000007": "stock/klus-bomen-vellen.jpg"
+	}
+}

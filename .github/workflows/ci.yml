@@ -1,0 +1,40 @@
+# check, lint and tests on every pull request (and on main). Make "ci" a required status check
+# in the branch protection of main, so a failing check blocks the merge.
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ci
+          POSTGRES_PASSWORD: ci
+          POSTGRES_DB: tnl_ci
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U ci" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL_OWNER: postgres://ci:ci@localhost:5432/tnl_ci
+      TEST_DATABASE_URL: postgres://ci:ci@localhost:5432/tnl_ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run lint
+      - name: Migrations apply cleanly to an empty database
+        run: npx tsx scripts/migrate.ts
+      - run: npm test
+      - name: Build with the seed fallback (no database access)
+        run: npm run build
+        env:
+          PUBLIC_SITE_URL: https://tnl-website.example.workers.dev

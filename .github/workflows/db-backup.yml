@@ -1,0 +1,37 @@
+# Nightly pg_dump of the production branch to R2 (docs/cms-plan/08-security.md).
+# 02:30 Brussels is 00:30 UTC in summer and 01:30 UTC in winter; the cron runs at 00:30 UTC.
+# An R2 lifecycle rule on tnl-backups deletes dumps after 30 days.
+name: db-backup
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install pg_dump 17 (matches Neon)
+        run: |
+          sudo install -d /usr/share/postgresql-common/pgdg
+          sudo curl -fsSL -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc https://www.postgresql.org/media/keys/ACCC4CF8.asc
+          echo "deb [signed-by=/usr/share/postgresql-common/pgdg/apt.postgresql.org.asc] https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" | sudo tee /etc/apt/sources.list.d/pgdg.list
+          sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client-17
+      - name: Dump with the read-only tnl_backup role
+        env:
+          BACKUP_DATABASE_URL: ${{ secrets.BACKUP_DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          FILE="tnl-$(date -u +%Y-%m-%dT%H%MZ).sql.gz"
+          /usr/lib/postgresql/17/bin/pg_dump "$BACKUP_DATABASE_URL" --no-owner --no-privileges --format=plain | gzip -9 > "$FILE"
+          test "$(gzip -cd "$FILE" | head -c 1000 | wc -c)" -gt 100
+          echo "FILE=$FILE" >> "$GITHUB_ENV"
+      - name: Upload to R2 (tnl-backups)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          aws s3 cp "$FILE" "s3://tnl-backups/db/$FILE" \
+            --endpoint-url "https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
+          echo "Uploaded db/$FILE"

@@ -1,0 +1,115 @@
+/* GENERATED from tokens.json by src/build.py. Do not edit by hand. */
+
+@font-face { font-family: "Geist"; src: url("../fonts/Geist-Variable.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist Mono"; src: url("../fonts/GeistMono-Variable.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+
+:root, [data-theme="light"] {
+  --leaf-300: #a8c97a;
+  --leaf-400: #7aa541;
+  --leaf-600: #5c7c31;
+  --leaf-700: #4a6628;
+  --leaf-800: #3d5321;
+  --vine-600: #4d5f38;
+  --olive-500: #798155;
+  --olive-600: #646b45;
+  --moss-800: #383c27;
+  --moss-900: #2b2e1d;
+  --mist-50: #e5ffef;
+  --paper-50: #f4f5ef;
+  --white: #ffffff;
+  --stone-100: #eceee6;
+  --stone-200: #d9dccf;
+  --stone-500: #8e9380;
+  --danger-600: #a3341f;
+  --bg: var(--paper-50);
+  --surface: var(--white);
+  --surface-sunken: var(--stone-100);
+  --ink: var(--moss-900);
+  --ink-soft: #5c6050;
+  --ink-faint: #666a59;
+  --line: var(--stone-200);
+  --line-strong: var(--stone-500);
+  --accent: var(--leaf-600);
+  --accent-hover: var(--leaf-700);
+  --on-accent: var(--white);
+  --link: var(--leaf-800);
+  --highlight: var(--leaf-600);
+  --focus: var(--leaf-800);
+  --danger: var(--danger-600);
+  --glass: rgba(244, 245, 239, 0.82);
+  --scrim: rgba(20, 22, 12, 0.5);
+  --shadow-card: 0 1px 2px rgba(43, 46, 29, 0.06), 0 10px 30px rgba(43, 46, 29, 0.07);
+  --shadow-float: 0 24px 60px rgba(20, 22, 12, 0.28);
+}
+[data-theme="olive"] {
+  --bg: var(--olive-600);
+  --surface: #5a6140;
+  --surface-sunken: #525839;
+  --ink: var(--mist-50);
+  --ink-soft: #e2eedc;
+  --ink-faint: #cddcc4;
+  --line: rgba(229, 255, 239, 0.22);
+  --line-strong: rgba(229, 255, 239, 0.6);
+  --accent: var(--mist-50);
+  --accent-hover: var(--white);
+  --on-accent: var(--moss-900);
+  --link: var(--mist-50);
+  --highlight: #c9e0a4;
+  --focus: var(--mist-50);
+  --danger: #ffe3dc;
+  --glass: rgba(90, 97, 64, 0.78);
+}
+[data-theme="forest"] {
+  --bg: var(--moss-900);
+  --surface: var(--moss-800);
+  --surface-sunken: #33372a;
+  --ink: var(--mist-50);
+  --ink-soft: #b9c6b3;
+  --ink-faint: #a0ac99;
+  --line: rgba(229, 255, 239, 0.16);
+  --line-strong: rgba(229, 255, 239, 0.5);
+  --accent: var(--leaf-400);
+  --accent-hover: var(--leaf-300);
+  --on-accent: var(--moss-900);
+  --link: var(--leaf-300);
+  --highlight: var(--leaf-400);
+  --focus: var(--leaf-300);
+  --danger: #ffb4a6;
+  --glass: rgba(43, 46, 29, 0.62);
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 112px;
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-xl: 40px;
+  --radius-pill: 999px;
+  --container-max: 1320px;
+  --measure: 62ch;
+  --header-height: 84px;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-fast: 160ms;
+  --dur-base: 280ms;
+  --font-sans: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+.t-display { font-family: var(--font-sans); font-size: 144px; line-height: 0.9; font-weight: 500; letter-spacing: -0.05em; }
+.t-h1 { font-family: var(--font-sans); font-size: 88px; line-height: 0.95; font-weight: 500; letter-spacing: -0.045em; }
+.t-h2 { font-family: var(--font-sans); font-size: 56px; line-height: 1; font-weight: 500; letter-spacing: -0.035em; }
+.t-h3 { font-family: var(--font-sans); font-size: 32px; line-height: 1.1; font-weight: 500; letter-spacing: -0.025em; }
+.t-h4 { font-family: var(--font-sans); font-size: 22px; line-height: 1.25; font-weight: 500; letter-spacing: -0.015em; }
+.t-lead { font-family: var(--font-sans); font-size: 20px; line-height: 1.5; font-weight: 400; letter-spacing: -0.01em; }
+.t-body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; font-weight: 400; }
+.t-small { font-family: var(--font-sans); font-size: 14px; line-height: 1.55; font-weight: 400; }
+.t-button { font-family: var(--font-sans); font-size: 15px; line-height: 1; font-weight: 500; letter-spacing: -0.005em; }
+.t-label { font-family: var(--font-mono); font-size: 12px; line-height: 1.3; font-weight: 500; letter-spacing: 0.08em; }
+.t-index { font-family: var(--font-mono); font-size: 14px; line-height: 1.3; font-weight: 400; letter-spacing: 0.02em; }
+.t-stat { font-family: var(--font-sans); font-size: 72px; line-height: 1; font-weight: 400; letter-spacing: -0.04em; }

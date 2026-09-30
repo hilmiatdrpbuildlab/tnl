@@ -1,0 +1,43 @@
+/* Page layout glue for the public site. Owned by this app, not by the design system.
+   Only grids and spacing between design-system components live here; no colours, type or shapes.
+   Candidates to move upstream into design-system-v2 are marked "upstream". */
+
+.l-grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
+.l-grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-4); }
+.l-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-7); align-items: start; }
+.l-stack { display: grid; gap: var(--space-7); }
+.l-stack-sm { display: grid; gap: var(--space-5); }
+@media (max-width: 980px) { .l-grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) { .l-grid-2, .l-split { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 640px) { .l-grid-3 { grid-template-columns: minmax(0, 1fr); } }
+
+/* upstream: interior hero, "the same frame at about 480px tall" (Hero README) */
+.tnl-hero--interior .tnl-hero__frame { min-height: 480px; }
+@media (max-width: 900px) { .tnl-hero--interior .tnl-hero__frame { min-height: 420px; } }
+
+/* upstream: running text for service, project and blog bodies */
+.l-prose { max-width: var(--measure); display: grid; gap: var(--space-4); }
+.l-prose h2 { font: 500 32px/1.1 var(--font-sans); letter-spacing: -0.025em; margin-top: var(--space-5); }
+.l-prose h3 { font: 500 22px/1.25 var(--font-sans); letter-spacing: -0.015em; margin-top: var(--space-4); }
+.l-prose ul, .l-prose ol { padding-left: 1.2em; display: grid; gap: var(--space-2); }
+.l-prose img { border-radius: var(--radius-md); }
+.l-prose blockquote { border-left: 2px solid var(--line-strong); padding-left: var(--space-4); color: var(--ink-soft); }
+
+/* upstream: project photo gallery */
+.l-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-3); }
+.l-gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-md); }
+@media (max-width: 720px) { .l-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.l-links { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.l-skip { position: absolute; left: var(--space-4); top: -100px; z-index: 50; }
+.l-skip:focus { top: var(--space-4); }
+.l-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+
+/* upstream: tap targets of at least 24 × 24 px (WCAG 2.5.8) for text links outside running text */
+.tnl-textlink { min-height: 24px; }
+.tnl-contact__row a, .tnl-footer__col a { display: inline-flex; align-items: center; min-height: 24px; }
+.tnl-header__phone { display: inline-flex; align-items: center; min-height: 24px; }
+
+/* upstream: the [1] index in an Olive section is highlight (#c9e0a4) on olive-600 at 14px,
+   3.9:1, under the 4.5:1 AA minimum. ink-soft passes (6.1:1). Fix in tokens.json, then drop this. */
+[data-theme='olive'] .tnl-pillars__index { color: var(--ink-soft); }
