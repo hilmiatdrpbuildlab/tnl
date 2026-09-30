@@ -1,4 +1,5 @@
 /** Better Auth for the running app: built per request from the Worker's env. */
+import { dev } from '$app/environment';
 import { getRequestEvent } from '$app/server';
 import { sveltekitCookies } from 'better-auth/svelte-kit';
 import { createAuth, OTP_PERIOD_MINUTES, type Auth } from './auth-config';
@@ -21,6 +22,8 @@ export async function getAuth(): Promise<Auth> {
 		secret,
 		baseURL,
 		extraPlugins: [sveltekitCookies(getRequestEvent)],
+		// `npm run dev` only: a deployed Worker (dev = false) always asks for the code.
+		skipOtp: dev && env.AUTH_SKIP_OTP === '1',
 		sendOtp: async (to, code) => {
 			await sendMail(mailConfig(), {
 				to: [{ email: to.email, name: to.name }],

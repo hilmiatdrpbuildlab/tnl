@@ -25,9 +25,11 @@ export interface AuthDeps {
 	allowSignUp?: boolean;
 	/** The SvelteKit cookie plugin, when running inside the app. */
 	extraPlugins?: BetterAuthPlugin[];
+	/** Sign in with the password alone. Local development only (AUTH_SKIP_OTP, see auth.ts). */
+	skipOtp?: boolean;
 }
 
-export function createAuth({ db, secret, baseURL, sendOtp, allowSignUp = false, extraPlugins = [] }: AuthDeps) {
+export function createAuth({ db, secret, baseURL, sendOtp, allowSignUp = false, extraPlugins = [], skipOtp = false }: AuthDeps) {
 	const secure = baseURL.startsWith('https://');
 	return betterAuth({
 		appName: 'TNL Group CMS',
@@ -59,7 +61,7 @@ export function createAuth({ db, secret, baseURL, sendOtp, allowSignUp = false, 
 			database: { generateId: () => crypto.randomUUID() }
 		},
 		plugins: [
-			twoFactor({
+			...(skipOtp ? [] : [twoFactor({
 				issuer: 'TNL Group',
 				trustDeviceMaxAge: TRUST_DEVICE_DAYS * 24 * 60 * 60,
 				otpOptions: {
@@ -73,7 +75,7 @@ export function createAuth({ db, secret, baseURL, sendOtp, allowSignUp = false, 
 				},
 				// Account lockout after repeated wrong codes stays on (plugin default).
 				accountLockout: { enabled: true, maxFailedAttempts: 10, durationSeconds: 900 }
-			}),
+			})]),
 			...extraPlugins
 		]
 	});

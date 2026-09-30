@@ -7,7 +7,7 @@
 		"node": ">=22"
 	},
 	"scripts": {
-		"dev": "npm run build-content --silent && npm run build-enhance --silent && vite dev",
+		"dev": "npm run build-content --silent && npm run build-images --silent && npm run build-enhance --silent && vite dev",
 		"build": "npm run build-content && npm run build-images && npm run build-enhance && vite build && npm run add-scheduled && npm run verify-build",
 		"build:app": "vite build",
 		"build-images": "tsx scripts/build-images.ts",
